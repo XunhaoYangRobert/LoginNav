@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home2" android:title="Home" android:icon="@drawable/home" android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/dashboard" android:title="Dashboard" android:icon="@drawable/dashboard" android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/tobyStart" android:title="TobyStart" android:icon="@drawable/toby_place_holder" android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/training" android:title="Training" android:icon="@drawable/training" android:menuCategory="secondary"/>
+    <item
+        android:id="@+id/profile" android:title="Profile" android:icon="@drawable/profile" android:menuCategory="secondary"/>
+</menu>

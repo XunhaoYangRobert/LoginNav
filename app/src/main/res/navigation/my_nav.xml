@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/home2"
+    >
+
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.tufts.navigationv2.Home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home"
+
+        android:menuCategory="secondary"/>
+    <fragment
+        android:id="@+id/dashboard"
+        android:name="com.tufts.navigationv2.Dashboard"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard"
+        android:menuCategory="secondary"/>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.tufts.navigationv2.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile"
+        android:menuCategory="secondary"/>
+    <fragment
+        android:id="@+id/training"
+        android:name="com.tufts.navigationv2.training"
+        android:label="fragment_training"
+        tools:layout="@layout/fragment_training"
+        android:menuCategory="secondary"/>
+    <fragment
+        android:id="@+id/tobyStart"
+        android:name="com.tufts.navigationv2.tobyStart"
+        android:label="fragment_toby_start"
+        tools:layout="@layout/fragment_toby_start"
+        android:menuCategory="secondary"/>
+</navigation>
